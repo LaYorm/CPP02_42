@@ -6,11 +6,13 @@
 /*   By: yorimek <yorimek@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/11 15:01:57 by yorimek           #+#    #+#             */
-/*   Updated: 2026/06/12 11:56:03 by yorimek          ###   ########.fr       */
+/*   Updated: 2026/06/12 12:44:58 by yorimek          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../include/Fixed.hpp"
+
+const int Fixed::_number_fractional_bits = 8;
 
 Fixed::Fixed(): _fixed_point_number(0)
 {
