@@ -6,7 +6,7 @@
 /*   By: yorimek <yorimek@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/11 15:02:03 by yorimek           #+#    #+#             */
-/*   Updated: 2026/06/11 15:50:24 by yorimek          ###   ########.fr       */
+/*   Updated: 2026/06/12 12:45:22 by yorimek          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ class Fixed
 {
 	private:
 		int					_fixed_point_number;
-		static const int	number_of_fractional_bits;
+		static const int	_number_of_fractional_bits;
 		
 	public:
 		Fixed();  //canonic
