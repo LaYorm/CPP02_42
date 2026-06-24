@@ -6,7 +6,7 @@
 /*   By: yorimek <yorimek@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/23 09:52:21 by yorimek           #+#    #+#             */
-/*   Updated: 2026/06/24 09:55:30 by yorimek          ###   ########.fr       */
+/*   Updated: 2026/06/24 10:48:58 by yorimek          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,6 @@ int main( void )
 		std::cout << "Le point n'est pas dans le triangle" << std::endl;
 		return (1);
 	}
-	std::cout << "Le point est bien dans le triangle" << std::endl;
+	std::cout << "Le point est bien strictement dans le triangle" << std::endl;
 	return (0);
 }
